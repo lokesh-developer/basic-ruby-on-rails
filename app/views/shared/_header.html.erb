@@ -1,0 +1,25 @@
+<nav class="navbar">
+  <div class="container">
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+        <a class="navbar-item">
+          Documentation
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <%= link_to new_entry_path, class: 'button is-link' do %>
+                New Entry
+                <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
